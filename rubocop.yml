@@ -1,0 +1,22 @@
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - '*.gemspec'
+    - 'spec/**/*'
+
+Style/SignalException:
+  EnforcedStyle: semantic
+
+Layout/AccessModifierIndentation:
+  EnforcedStyle: outdent

@@ -1,0 +1,187 @@
+[
+  {
+    "number": "012",
+    "name": "BBVA Bancomer, S.A.",
+    "abreviate": "BBVA BANCOMER"
+  },
+  {
+    "number": "014",
+    "name": "Banco Santander, S.A.",
+    "abreviate": "SANTANDER"
+  },
+  {
+    "number": "019",
+    "name": "Banco Nacional del Ejército, Fuerza Aérea y Armada, S.N.C.",
+    "abreviate": "BANJERCITO"
+  },
+  {
+    "number": "002",
+    "name": "Banco Nacional de México, S.A.",
+    "abreviate": "BANAMEX"
+  },
+  {
+    "number": "021",
+    "name": "HSBC México, S.A.",
+    "abreviate": "HSBC"
+  },
+  {
+    "number": "022",
+    "name": "GE Money Bank, S.A.",
+    "abreviate": "GE MONEY"
+  },
+  {
+    "number": "030",
+    "name": "Banco del Bajío, S.A.",
+    "abreviate": "BAJÍO"
+  },
+  {
+    "number": "032",
+    "name": "IXE Banco, S.A.",
+    "abreviate": "IXE"
+  },
+  {
+    "number": "036",
+    "name": "Banco Inbursa, S.A.",
+    "abreviate": "INBURSA"
+  },
+  {
+    "number": "037",
+    "name": "Banco Interacciones, S.A.",
+    "abreviate": "INTERACCIONES"
+  },
+  {
+    "number": "042",
+    "name": "Banca Mifel, S.A.",
+    "abreviate": "MIFEL"
+  },
+  {
+    "number": "044",
+    "name": "Scotiabank Inverlat, S.A.",
+    "abreviate": "SCOTIABANK"
+  },
+  {
+    "number": "058",
+    "name": "Banco Regional de Monterrey, S.A.",
+    "abreviate": "BANREGIO"
+  },
+  {
+    "number": "059",
+    "name": "Banco Invex, S.A.",
+    "abreviate": "INVEX"
+  },
+  {
+    "number": "060",
+    "name": "Bansi, S.A.",
+    "abreviate": "BANSI"
+  },
+  {
+    "number": "062",
+    "name": "Banca Afirme, S.A.",
+    "abreviate": "AFIRME"
+  },
+  {
+    "number": "072",
+    "name": "Banco Mercantil del Norte, S.A.",
+    "abreviate": "BANORTE"
+  },
+  {
+    "number": "103",
+    "name": "American Express Bank (México), S.A.",
+    "abreviate": "AMERICAN EXPRESS"
+  },
+  {
+    "number": "112",
+    "name": "Banco Monex, S.A.",
+    "abreviate": "BMONEX"
+  },
+  {
+    "number": "113",
+    "name": "Banco Ve por Mas, S.A.",
+    "abreviate": "VE POR MAS"
+  },
+  {
+    "number": "127",
+    "name": "Banco Azteca, S.A.",
+    "abreviate": "AZTECA"
+  },
+  {
+    "number": "128",
+    "name": "Banco Autofin México, S.A.",
+    "abreviate": "AUTOFIN"
+  },
+  {
+    "number": "130",
+    "name": "Banco Compartamos, S.A.",
+    "abreviate": "COMPARTAMOS"
+  },
+  {
+    "number": "131",
+    "name": "Banco Ahorro Famsa, S.A.",
+    "abreviate": "FAMSA"
+  },
+  {
+    "number": "132",
+    "name": "Banco Multiva, S.A.",
+    "abreviate": "BMULTIVA"
+  },
+  {
+    "number": "134",
+    "name": "Banco Wal Mart de México Adelante, S.A.",
+    "abreviate": "WAL-MART"
+  },
+  {
+    "number": "135",
+    "name": "Nacional Financiera, S.N.C.",
+    "abreviate": "NAFIN"
+  },
+  {
+    "number": "136",
+    "name": "Banco Regional, S.A.",
+    "abreviate": "REGIONAL"
+  },
+  {
+    "number": "137",
+    "name": "BanCoppel, S.A.",
+    "abreviate": "BANCOPPEL"
+  },
+  {
+    "number": "138",
+    "name": "Banco Amigo, S.A.",
+    "abreviate": "AMIGO"
+  },
+  {
+    "number": "139",
+    "name": "UBS Banco, S.A.",
+    "abreviate": "UBS BANK"
+  },
+  {
+    "number": "140",
+    "name": "Banco Fácil, S.A.",
+    "abreviate": "FÁCIL"
+  },
+  {
+    "number": "143",
+    "name": "Consultoría Internacional Banco, S.A.",
+    "abreviate": "CIBanco"
+  },
+  {
+    "number": "145",
+    "name": "Banco BASE, S.A. de I.B.M.",
+    "abreviate": "BBASE"
+  },
+  {
+    "number": "147",
+    "name": "Bankaool, S.A., Institución de Banca Múltiple",
+    "abreviate": "BANKAOOL"
+  },
+  {
+    "number": "150",
+    "name": "Banco Inmobiliario Mexicano, S.A., Institución de Banca Múltiple",
+    "abreviate": "BIM"
+  },
+  {
+    "number": "166",
+    "name": "Banco del Ahorro Nacional y Servicios Financieros, S.N.C.",
+    "abreviate": "BANSEFI"
+  }
+]
