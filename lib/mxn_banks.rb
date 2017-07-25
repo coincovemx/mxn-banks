@@ -1,7 +1,7 @@
 require "mxn_banks/version"
-autoload :Bank , 'mxn_banks/bank'
 
 module MxnBanks
+  autoload :Bank, 'mxn_banks/bank'
   def self.from_iban(num)
     a = to_hash.select { |b| b[:number] == num.slice(0, 3) }
     Bank.new(a.first)
