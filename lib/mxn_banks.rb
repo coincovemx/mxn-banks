@@ -12,7 +12,7 @@ module MxnBanks
     @banks ||= JSON.parse(json_file, symbolize_names: true)
   end
 
-  def self.valid(clabe)
+  def self.valid?(clabe)
     sliced_clabe = clabe.slice(0,17).split('')
     w_factor = weight(sliced_clabe)
     module_ten = sliced_clabe.map.with_index { |n, i| (n.to_i * w_factor[i]).modulo(10) } 

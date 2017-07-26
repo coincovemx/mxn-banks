@@ -24,10 +24,10 @@ RSpec.describe MxnBanks do
   end  
 
   it 'Return Valid CLABE' do
-    expect(MxnBanks.valid('044320010044816821')).to be true
+    expect(MxnBanks.valid?('044320010044816821')).to be true
   end
     
   it 'Return invalid CLABE' do
-    expect(MxnBanks.valid('044320010044816824')).to be false
+    expect(MxnBanks.valid?('044320010044816824')).to be false
   end
 end

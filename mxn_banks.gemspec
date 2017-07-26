@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['aldosolorzano']
   spec.email         = ['aldosolorzanop@gmail.com']
 
-  spec.summary       = 'Created for the purpose of autocomplete banks info.'
+  spec.summary       = 'Get mexican banks from IBAN'
   spec.homepage      = 'https://github.com/aldosolorzano/mxn_banks'
   spec.license       = 'MIT'
 
