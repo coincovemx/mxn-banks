@@ -4,6 +4,7 @@ module MxnBanks
   autoload :Bank, 'mxn_banks/bank'
   def self.from_iban(num)
     a = to_hash.select { |b| b[:number] == num.slice(0, 3) }
+    fail ArgumentError,'Invalid bank code' if a.empty? 
     Bank.new(a.first)
   end
 
@@ -13,6 +14,7 @@ module MxnBanks
   end
 
   def self.valid?(clabe)
+    return false if clabe.length < 18
     sliced_clabe = clabe.slice(0,17).split('')
     w_factor = weight(sliced_clabe)
     module_ten = sliced_clabe.map.with_index { |n, i| (n.to_i * w_factor[i]).modulo(10) } 
@@ -28,6 +30,6 @@ module MxnBanks
 
     def self.current_control_digit(arr)
       module_sum = arr.reduce { |sum, n| sum + n }
-      10 - module_sum.modulo(10)
+      (10 - module_sum.modulo(10)).modulo(10)
     end
 end
