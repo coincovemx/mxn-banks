@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['aldosolorzanop@gmail.com']
 
   spec.summary       = 'Get mexican banks from IBAN'
-  spec.homepage      = 'https://github.com/aldosolorzano/mxn_banks'
+  spec.homepage      = 'https://github.com/coincovemx/mxn-banks'
   spec.license       = 'MIT'
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
