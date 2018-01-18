@@ -5,12 +5,12 @@ require 'pry'
 RSpec.describe MxnBanks do
   let!(:clabes) do
     {
-      valid:   ['002073662461479944', '012098011316193496', '014427566437837360'],
-      invalid: ['002073662461479942', '0120980113192', '014427566437837362']
+      valid:   %w(002073662461479944 012098011316193496 014427566437837360),
+      invalid: %w(002073662461479942 0120980113192 014427566437837362),
     }
   end
   let!(:bank) do
-    OpenStruct.new( number: '012', name: 'BBVA Bancomer, S.A.', abbreviate: 'BBVA BANCOMER' )
+    OpenStruct.new(number: '012', name: 'BBVA Bancomer, S.A.', abbreviate: 'BBVA BANCOMER')
   end
 
   it 'has a version number' do
@@ -31,7 +31,7 @@ RSpec.describe MxnBanks do
       expect(a.abbreviate).to eq(bank.abbreviate)
     end
     it 'should raise Argument Error' do
-      expect {MxnBanks.from_iban('123456789123456789')}.to raise_error(ArgumentError)
+      expect { MxnBanks.from_iban('123456789123456789') }.to raise_error(ArgumentError)
     end
   end
 

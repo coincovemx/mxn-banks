@@ -10,6 +10,12 @@ Metrics/LineLength:
 Style/Documentation:
   Enabled: false
 
+Metrics/AbcSize:
+  Max: 16
+
+Style/SignalException:
+  EnforcedStyle: semantic
+
 Metrics/BlockLength:
   Exclude:
     - '*.gemspec'
