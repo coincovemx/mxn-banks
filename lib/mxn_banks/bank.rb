@@ -1,11 +1,11 @@
 module MxnBanks
   class Bank
-    attr_reader :name, :number, :abreviate
+    attr_reader :name, :number, :abbreviate
 
     def initialize(args)
       @name = args[:name]
       @number = args[:number]
-      @abreviate = args[:abreviate]
+      @abbreviate = args[:abbreviate]
     end
   end
 end
