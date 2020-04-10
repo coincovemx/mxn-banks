@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'mxn_banks/version'
 
 module MxnBanks

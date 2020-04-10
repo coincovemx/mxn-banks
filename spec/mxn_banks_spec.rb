@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 require 'json'
 require 'pry'
@@ -5,8 +7,8 @@ require 'pry'
 RSpec.describe MxnBanks do
   let!(:clabes) do
     {
-      valid:   %w(002073662461479944 012098011316193496 014427566437837360),
-      invalid: %w(002073662461479942 0120980113192 014427566437837362),
+      valid:   %w[002073662461479944 012098011316193496 014427566437837360],
+      invalid: %w[002073662461479942 0120980113192 014427566437837362],
     }
   end
   let!(:bank) do

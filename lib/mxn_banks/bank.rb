@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module MxnBanks
   class Bank
     attr_reader :name, :number, :abbreviate
